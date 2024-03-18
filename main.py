@@ -5,7 +5,7 @@ from fastapi import FastAPI
 import uvicorn
 
 from core.config import settings
-from jwt_auth.demo_jwt_auth import router as jwt_router
+from jwt_auth.jwt_auth import router as jwt_router
 
 
 @asynccontextmanager
